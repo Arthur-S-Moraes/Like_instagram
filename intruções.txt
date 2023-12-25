@@ -1,5 +1,5 @@
 entrar no instagram e curtir postagem
 1 entrar no instagram
 2 escolher uma pagina
-3 curtir a ultima postagem
+3 curtir as ultimas 5 postagens
 4 se tiver curtido ignorar

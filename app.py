@@ -90,7 +90,7 @@ def like_instagram():
 
 
 
-schedule.every().day.at("06:00").do(like_instagram)
+schedule.every().day.at("12:00").do(like_instagram)
 
 while True:
     schedule.run_pending()

@@ -93,8 +93,5 @@ def like_instagram():
 schedule.every().day.at("06:00").do(like_instagram)
 
 while True:
-    # Executar tarefas agendadas
     schedule.run_pending()
-
-    # Aguardar um curto período de tempo para evitar uso excessivo da CPU
     sleep(1)

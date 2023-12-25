@@ -53,8 +53,8 @@ def like_instagram():
     senha = 'senha'
     pagina_curtir = 'https://www.instagram.com/devaprender/'
     driver.get(instagram)
-
  
+  
     #logar na conta
     digitar_email = driver.find_element(By.XPATH, "//input[@aria-label='Phone number, username, or email']")
     digitar_email.send_keys(email)
